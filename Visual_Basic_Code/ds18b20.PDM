@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=多点无线温度采集系统上位机
+
+
+[Package|多点无线温度采集系统上位机|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Administrator\桌面\多点无线温度采集系统上位机
+
+[Package|多点无线温度采集系统上位机|Configure DAO ISAMs]
+Applicable=No
+
+[Package|多点无线温度采集系统上位机|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|多点无线温度采集系统上位机|Files Found]
+
+[Package|多点无线温度采集系统上位机|Files Released]
+
+[Package|多点无线温度采集系统上位机|Missing Dependency Information]
+
+[Package|多点无线温度采集系统上位机|Out-of-Date Dependency Information]
+
+[Package|多点无线温度采集系统上位机|Files Added]
+
+[Package|多点无线温度采集系统上位机|Files Removed]
+
+[Package|多点无线温度采集系统上位机|Files In Project]
+C:\Documents and Settings\Administrator\桌面\006、VB上位机与18b20下位机\上位机vb\ds18b20_v10.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|多点无线温度采集系统上位机|Configure Registry Files]
+Applicable=No
+
+[Package|多点无线温度采集系统上位机|Configure Remote Servers]
+Applicable=No
+
+[Package|多点无线温度采集系统上位机|Install Locations]
+C:\Documents and Settings\Administrator\桌面\006、VB上位机与18b20下位机\上位机vb\ds18b20_v10.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|多点无线温度采集系统上位机|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\桌面\006、VB上位机与18b20下位机\上位机vb\ds18b20_v10.exe=No
+
+[Package|多点无线温度采集系统上位机|Distribution]
+Type=single
+Size=
+Title=多点无线温度采集系统上位机
+
+[Package|多点无线温度采集系统上位机|IconGroups]
+Group0=多点无线温度采集系统上位机
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|多点无线温度采集系统上位机|多点无线温度采集系统上位机]
+Icon1=ds18b20_v10.exe
+Title1=多点无线温度采集系统上位机
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|多点无线温度采集系统上位机|Package]
+PackageFolder=C:\Documents and Settings\Administrator\桌面\多点无线温度采集系统上位机
+ProjectFolder=C:\Documents and Settings\Administrator\桌面\006、VB上位机与18b20下位机\上位机vb
+ServerSideCab=
+File1=C:\Documents and Settings\Administrator\桌面\多点无线温度采集系统上位机\setup.exe
+File2=C:\Documents and Settings\Administrator\桌面\多点无线温度采集系统上位机\Setup.Lst
+File3=C:\Documents and Settings\Administrator\桌面\多点无线温度采集系统上位机\ds18b20_v10.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
